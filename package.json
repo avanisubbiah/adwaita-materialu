@@ -1,6 +1,6 @@
 {
   "name": "adwaita-materialu",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Utility to generate adwaita presets for use with AdwCustomizer from images using Google's MaterialU color generator.",
   "main": "bin/index.js",
   "scripts": {
