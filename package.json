@@ -4,11 +4,20 @@
   "description": "Utility to generate adwaita presets for use with AdwCustomizer from images using Google's MaterialU color generator.",
   "main": "bin/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "find './node_modules/@material/material-color-utilities/' -type f -name '*.js' -exec sed -Ei '/(import|export)/s/(\\x22|\\x27)(\\.{1,2}\\/(([[:alnum:]_-]+|\\.{2})\\/)*[[:alnum:]_-]+)(\\.js)?\\1/\\1\\2.js\\1/g' {} +"
   },
   "author": "Avanish Subbiah",
   "license": "ISC",
   "bin": {
     "gen-materialu-theme": "./bin/index.js"
-  }
+  },
+  "dependencies": {
+    "@material/material-color-utilities": "^0.1.2",
+    "canvas": "^2.9.3",
+    "fs": "^0.0.1-security",
+    "jsdom": "^20.0.0",
+    "yargs": "^17.5.1"
+  },
+  "type": "module"
 }
