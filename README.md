@@ -25,11 +25,11 @@ PATH="./node_modules/.bin:$PATH"
 ```
 
 ## Usage
-Run the command below and the preset generated will be written to the folder where the image is located.
+Run the command below and the preset generated will be written to the folder where the image is located
 ```
 gen-materialu-theme -i <Path to image file> -t <Theme type (dark|light)>
 ```
-Then move the generated preset.json file to the preset folder for AdwCustomizer.
+Then move the generated preset.json file to the preset folder for AdwCustomizer
  - Default Location: `$HOME/.var/app/com.github.ArtyIF.AdwCustomizer/config/presets`
 
 ## Examples
