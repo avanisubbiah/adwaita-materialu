@@ -20,3 +20,11 @@ gen-materialu-theme -i <Path to image file> -t <Theme type (dark|light)>
 ```
 Then move the generated preset.json file to the preset folder for AdwCustomizer.
  - Default Location: `$HOME/.var/app/com.github.ArtyIF.AdwCustomizer/config/presets`
+
+## Examples
+![Water Lily Light](https://i.imgur.com/x22C9cu.png)
+![Water Lily Dark](https://i.imgur.com/x7z1gdZ.png)
+![Nord Light](https://i.imgur.com/Kqhnw5s.png)
+![Nord Dark](https://i.imgur.com/m6ojaa4.png)
+![Cherry Light](https://i.imgur.com/c4ijgD2.png)
+![Cherry Dark](https://i.imgur.com/2T4V5IZ.png)
