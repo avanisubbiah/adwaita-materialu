@@ -11,5 +11,11 @@
     "dialog_bg_color": "secondaryContainer",
     "dialog_fg_color": "onSecondaryContainer",
     "popover_bg_color": "tertiaryContainer",
-    "popover_fg_color": "onTertiaryContainer"
+    "popover_fg_color": "onTertiaryContainer",
+    "sidebar_bg_color": "surface",
+    "sidebar_fg_color": "onSurface",
+    "sidebar_border_color": "surface",
+    "sidebar_backdrop_color": "surface",
+    "secondary_sidebar_bg_color": "surface",
+    "secondary_sidebar_fg_color": "onSurface"
 }
